@@ -1,35 +1,19 @@
 # pLUFs
 
-The Physical LUFS meter will be a project that allows users to have realtime analysis of the LUFs level of the audio being transmitted by their PC. This README has 5 sections:
+The Physical LUFS meter will be a project that allows users to have realtime analysis of the LUFs level of the audio being transmitted by their PC.
 
-1. Initial title
-2. Overview of Project
-3. Sensor Device
-4. Display Device
-5. Communication Protocol
+The datasheets for the projects are located in the `datasheets` folder. Note that information surrounding the circular display can be found here: 
 
-Here are the slides:
+* Getting started: https://wiki.seeedstudio.com/get_start_round_display/
+* Hardware: https://wiki.seeedstudio.com/seeedstudio_round_display_usage/
 
-## Slides
+Information regarding the stepper gauge can be found here:
 
-### Initial Title
+* https://www.adafruit.com/product/2424 
 
-Here's the title of the project: 
+Information regarding stepper motor driver can be found here:
 
-![Slide 1](assets/intialPPT/Slide1.jpg)
+* https://www.adafruit.com/product/2448 
+* https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/using-stepper-motors
 
-Here's an overview of the project:
-
-![Slide 2](assets/intialPPT/Slide2.jpg)
-
-Here's the sensor device:
-
-![Slide 3](assets/intialPPT/Slide3.jpg)
-
-Here's the display device:
-
-![Slide 4](assets/intialPPT/Slide4.jpg)
-
-Here's the overall communication protocol of the device:
-
-![Slide 5](assets/intialPPT/Slide5.jpg)
+The kiCad project for the PCB is located in the `pcbMain` folder. The PCB will be used in the display device, and will connect the Seeed XIAO ESP32C3 to the circular display, a Li-ION battery, and the gauge. It will also have a few tactile buttons.
